@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(black, gray);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: black;
+    background: linear-gradient(aliceblue, lightblue);
+    font-family: pacifico;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    border-style: dashed;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: lightskyblue;
+    padding-left: 40%;
+    position: sticky;
+    top: 0px;
+    text-shadow: 0px 0px 5px yellow, -5px -5px 5px orange;  
+
+}
+h1:hover{
+    box-shadow: 5px 5px 5px snow;
+}
+p{
+    color: aqua;
+}
+.first{
+    color: aliceblue;
+}
+#fa-house{
+    color: aquamarine;
+}
+#fa-house:hover{
+    color: white;
+}
